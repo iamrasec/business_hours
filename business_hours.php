@@ -37,7 +37,9 @@ add_action('admin_menu', 'business_hours_admin_menu');
 
 
 
-
+function business_hours_admin() {
+    return BH_Admin::init();
+}
 
 
 
