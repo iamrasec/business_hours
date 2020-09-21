@@ -6,11 +6,11 @@
 
 /**
  * Plugin Name: Business Hours
- * Plugin URI: 
+ * Plugin URI: https://github.com/iamrasec/business_hours
  * Description: Display Business Hours on your page.  Automatically switches between opening and closing times.
  * Version: 1.0
  * Author: Cesar Yamuta Jr.
- * Author URI: 
+ * Author URI: https://github.com/iamrasec
  */
 
 define('BH__PLUGIN_DIR', plugin_dir_path(__FILE__));
