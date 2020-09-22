@@ -16,7 +16,7 @@
 define('BH__PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('BH__VERSION', '1.0');
 
-require_once(BH__PLUGIN_DIR . 'class.bh_admin.php');
+require_once(BH__PLUGIN_DIR . 'includes/bh_admin.php');
 
 function business_hours_install() {
     
@@ -38,7 +38,7 @@ add_action('admin_menu', 'business_hours_admin_menu');
 
 
 function business_hours_admin() {
-    return BH_Admin::init();
+
 }
 
 
