@@ -30,15 +30,15 @@ function business_hours_add_scripts() {
 add_action('admin_enqueue_scripts', 'business_hours_add_scripts');
 
 
-function business_hours_admin_menu() {
+/*function business_hours_admin_menu() {
     add_menu_page( 'Business Hours', 'Business Hours', 'edit_others_posts', 'business_hours', 'business_hours_admin', '', 2 );
 }
-add_action('admin_menu', 'business_hours_admin_menu');
+add_action('admin_menu', 'business_hours_admin_menu');*/
 
 
 
 function business_hours_admin() {
-
+	
 }
 
 
